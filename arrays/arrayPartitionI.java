@@ -15,7 +15,6 @@ public class arrayPartitionI {
 			}
 
 			nums[j + 1] = temp;
-
 		}
         int sum = 0;
         for(int i = 0; i < nums.length; i++) {
